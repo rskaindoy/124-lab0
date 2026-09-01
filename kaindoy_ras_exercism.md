@@ -32,3 +32,13 @@ The exercise solves the problem of generating the correct message when sharing a
 I used `len()` to check the input string's length to determine whether it was not empty, and string concatenation with the `+` operator.\
 **Where did you struggle and how did you resolve it?**\
 I did not struggle with this exercise, as I was able to understand and implement the required logic.
+
+**Exercise:** Collatz Conjecture\
+**Link:** https://exercism.org/tracks/go/exercises/collatz-conjecture/solutions/rskaindoy \
+**Difficulty:** Easy (10 points)\
+**What problem does this exercise solve?**\
+The exercise solves the problem of determining how many steps are required for a given positive integer to reach 1 using the rules of the Collatz Conjecture.\
+**What concepts or language features did you use?**\
+I used the `errors` package for handling invalid inputs, a `for` loop structured like a `while` loop,  and the `%` operator to check divisibility.\
+**Where did you struggle and how did you resolve it?**\
+I initially didn't check the input limitations, specifically that the input must be a positive integer. I resolved this by adding a check for invalid inputs and returning an error when the input is less than or equal to 0.
