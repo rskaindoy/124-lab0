@@ -14,7 +14,7 @@ your answer here\
 your answer here
 
 **Exercise:** Raindrops\
-**Link:** https://exercism.org/tracks/go/exercises/raindrops/solutions/rskaindoy\
+**Link:** https://exercism.org/tracks/go/exercises/raindrops/solutions/rskaindoy \
 **Difficulty:** Easy (10 points)\
 **What problem does this exercise solve?**\
 The exercise solves the problem of identifying a number's divisibility by 3, 5, and 7 and producing the appropriate corresponding output.\
