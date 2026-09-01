@@ -22,3 +22,13 @@ The exercise solves the problem of identifying a number's divisibility by 3, 5, 
 I used Go's `strconv` package and its `Itoa()` function to convert an integer to a string. I also used an array to store the given sounds, `if` conditions with the `%` operator for divisibility checks, and string concatenation to combine the sounds.\
 **Where did you struggle and how did you resolve it?**\
 I struggled at first with how to convert an int to a string because I didn't know that  `Itoa()` function existed. I resolved this by looking up Go's built-in libraries and learning how to use `strconv.Itoa()`.
+
+**Exercise:** Two Fer\
+**Link:** https://exercism.org/tracks/go/exercises/two-fer/solutions/rskaindoy \
+**Difficulty:** Easy (10 points)\
+**What problem does this exercise solve?**\
+The exercise solves the problem of generating the correct message when sharing a cookie with someone, depending on whether their name is known or unknown.\ 
+**What concepts or language features did you use?**\
+I used `len()` to check the input string's length to determine whether it was not empty, and string concatenation with the `+` operator.\
+**Where did you struggle and how did you resolve it?**\
+I did not struggle with this exercise, as I was able to understand and implement the required logic.
