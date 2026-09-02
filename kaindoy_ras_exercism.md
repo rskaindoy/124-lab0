@@ -42,3 +42,14 @@ The exercise solves the problem of determining how many steps are required for a
 I used the `errors` package for handling invalid inputs, a `for` loop structured like a `while` loop,  and the `%` operator to check divisibility.\
 **Where did you struggle and how did you resolve it?**\
 I initially didn't check the input limitations, specifically that the input must be a positive integer. I resolved this by adding a check for invalid inputs and returning an error when the input is less than or equal to 0.
+
+**Exercise:** Word Count\
+**Link:** https://exercism.org/tracks/go/exercises/word-count/solutions/rskaindoy \
+**Difficulty:** Easy (10 points)\
+**What problem does this exercise solve?**\
+The exercise solves the problem of counting how many times each word appears in a given subtitle while accounting for capitalization, punctuation, whitespace, contractions, and numbers.\
+**What concepts or language features did you use?**\
+I used a `map[string]int` to store each word and its frequency, a `for` loop with `range` to go through each character, the `strings` package to convert the phrase to lowercase, and string concatenation to build each word.\
+**Where did you struggle and how did you resolve it?**\
+I initially struggled with handling apostrophes because apostrophes in contractions should be kept while apostrophes used as punctuation should not. I resolved this by checking whether an apostrophe had a word character on both sides before including it in a word.
+
