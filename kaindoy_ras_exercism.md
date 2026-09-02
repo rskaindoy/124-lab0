@@ -1,6 +1,6 @@
 **Name:** Rose Antonette S. Kaindoy\
 **Section:** 1\
-**Score:** 110
+**Score:** 130
 
 **Exercise:** Raindrops\
 **Link:** https://exercism.org/tracks/go/exercises/raindrops/solutions/rskaindoy \
