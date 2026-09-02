@@ -111,3 +111,13 @@ The exercise solves the problem of calculating the Hamming distance between two 
 I used character comparison by accessing the element at the same index in both strings and comparing them to determine whether there's a difference. \
 **Where did you struggle and how did you resolve it?**\
 I made some simple mistakes, such as returning only one value when the function was expected to return two values: an integer and an error. I resolved this by reviewing the function's return type and making sure to return both values.
+
+**Exercise:** Isogram\
+**Link:** https://exercism.org/tracks/go/exercises/isogram/solutions/rskaindoy \
+**Difficulty:** Easy (10 points)\
+**What problem does this exercise solve?**\
+The exercise solves the problem of determining whether a word or phrase contains any repeating letters.\
+**What concepts or language features did you use?**\
+I used a `map` to keep track of the letters that had already appeared and a `for` loop to go through each character. I also used `strings.ToLower()` to make the comparison case-insensitive and conditional statements to handle spaces and hyphens. \
+**Where did you struggle and how did you resolve it?**\
+I was a bit confused about how the `map` works, until I reviewed the concept again and visualized how it can keep track of characters that had already appeared and check for duplicates.
