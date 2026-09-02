@@ -53,3 +53,12 @@ I used a `map[string]int` to store each word and its frequency, a `for` loop wit
 **Where did you struggle and how did you resolve it?**\
 I initially struggled with handling apostrophes because apostrophes in contractions should be kept while apostrophes used as punctuation should not. I resolved this by checking whether an apostrophe had a word character on both sides before including it in a word.
 
+**Exercise:** Reverse String\
+**Link:** https://exercism.org/tracks/go/exercises/reverse-string/solutions/rskaindoy \
+**Difficulty:** Easy (10 points)\
+**What problem does this exercise solve?**\
+The exercise solves the problem of reversing the characters in a given string. \
+**What concepts or language features did you use?**\
+I used the `rune` data type to work with individual characters in a string. \
+**Where did you struggle and how did you resolve it?**\
+I initially struggled with the `rune` data type because I was unfamiliar with how Go represents characters. I resolved this by learning how `rune` can be used to work with individual characters in a string.
