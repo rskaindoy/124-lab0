@@ -1,5 +1,5 @@
 **Name:** Rose Antonette S. Kaindoy\
-**Section:** 1\
+**Section:** 2\
 **Score:** 145
 
 **Exercise:** Raindrops\
