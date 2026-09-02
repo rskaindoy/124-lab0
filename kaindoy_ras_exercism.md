@@ -62,3 +62,14 @@ The exercise solves the problem of reversing the characters in a given string. \
 I used the `rune` data type to work with individual characters in a string. \
 **Where did you struggle and how did you resolve it?**\
 I initially struggled with the `rune` data type because I was unfamiliar with how Go represents characters. I resolved this by learning how `rune` can be used to work with individual characters in a string.
+
+**Exercise:** Leap \
+**Link:** https://exercism.org/tracks/go/exercises/leap/solutions/rskaindoy \
+**Difficulty:** Easy (10 points)\
+**What problem does this exercise solve?**\
+The exercise solves the problem of determining whether a given year is a leap year.\
+**What concepts or language features did you use?**\
+I used the `bool` data type for the first time, as well as `else if` statements and the `%` operator to check for divisibility and determine whether the year follows the rules for leap years. \
+**Where did you struggle and how did you resolve it?**\
+I struggled with Go's case sensitivity and resolved it by using lowercase `true` and `false`.
+
