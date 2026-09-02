@@ -73,3 +73,12 @@ I used the `bool` data type for the first time, as well as `else if` statements 
 **Where did you struggle and how did you resolve it?**\
 I struggled with Go's case sensitivity and resolved it by using lowercase `true` and `false`.
 
+**Exercise:** Darts\
+**Link:** https://exercism.org/tracks/go/exercises/darts/solutions/rskaindoy \
+**Difficulty:** Easy (10 points)\
+**What problem does this exercise solve?**\
+The exercise solves the problem of calculating the correct score based on the dart's position on the target.\
+**What concepts or language features did you use?**\
+I used the Pythagorean theorem to calculate the dart's distance from the center of the target.\
+**Where did you struggle and how did you resolve it?**\
+I initially struggled with determining how to use the dart's `x` and `y` coordinates to calculate its distance from the center. I resolved this by using Pythagorean theorem and comparing the resulting distance with the target's scoring regions.
