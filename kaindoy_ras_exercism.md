@@ -93,3 +93,12 @@ I used the bitwise `&` operator to check whether a particular allergy is include
 **Where did you struggle and how did you resolve it?**\
 I initially struggled with understanding and incorporating bitwise operations into the solution, particularly how to use the `&` operator to check for specific allergies in the allergy score. I resolved this by learning how to use bitwise `&` to compare the allergy score with each allergen's score.
 
+**Exercise:** Difference of Squares\
+**Link:** https://exercism.org/tracks/go/exercises/difference-of-squares/solutions/rskaindoy \
+**Difficulty:** Easy (10 points)\
+**What problem does this exercise solve?**\
+The exercise solves the problem of finding the difference between the square of the sum and the sum of the squares of the first N natural numbers.\
+**What concepts or language features did you use?**\
+I used `for` loops to iterate through the first N natural numbers and basic arithmetic to calculate the square of the sum, the sum of the squares, and their difference.\
+**Where did you struggle and how did you resolve it?**\
+I didn't struggle with this exercise since the calculations and implementation were straightforward.
