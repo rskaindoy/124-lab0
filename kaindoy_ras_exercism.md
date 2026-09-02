@@ -101,3 +101,13 @@ The exercise solves the problem of finding the position of a given value in a so
 I used the concept of binary search and `for` loops to repeatedly narrow down the range of possible positions.\
 **Where did you struggle and how did you resolve it?**\
 I initially struggled with handling cases where the key was not in the list, as well as cases where the key was at the first or last position. I resolved these issues through trial and error and by checking the different possible cases in the binary search while keeping the code simple.
+
+**Exercise:** Hamming\
+**Link:** https://exercism.org/tracks/go/exercises/hamming/solutions/rskaindoy \
+**Difficulty:** Easy (10 points)\
+**What problem does this exercise solve?**\
+The exercise solves the problem of calculating the Hamming distance between two DNA strands.\
+**What concepts or language features did you use?**\
+I used character comparison by accessing the element at the same index in both strings and comparing them to determine whether there's a difference. \
+**Where did you struggle and how did you resolve it?**\
+I made some simple mistakes, such as returning only one value when the function was expected to return two values: an integer and an error. I resolved this by reviewing the function's return type and making sure to return both values.
