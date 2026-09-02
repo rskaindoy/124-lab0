@@ -89,7 +89,7 @@ I initially struggled with determining how to use the dart's `x` and `y` coordin
 **What problem does this exercise solve?**\
 The exercise solves the problem of determining a person's list of allergies depending on their allergy score.\
 **What concepts or language features did you use?**\
-I used the concept of bitwise AND `&` to add the bits of each item's allergy score to determine the allergy/ies of a person. I also used an array of string and learned the use of `struct`.\
+I used the bitwise `&` operator to check whether a particular allergy is included in the allergy score, `struct` to store each allergen and its corresponding score, and `for` loops with a `range` to go through the list of allergens.\
 **Where did you struggle and how did you resolve it?**\
-I struggled with how to ...
+I initially struggled with understanding and incorporating bitwise operations into the solution, particularly how to use the `&` operator to check for specific allergies in the allergy score. I resolved this by learning how to use bitwise `&` to compare the allergy score with each allergen's score.
 
