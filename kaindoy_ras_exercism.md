@@ -1,6 +1,6 @@
 **Name:** Rose Antonette S. Kaindoy\
 **Section:** 1\
-**Score:** 130
+**Score:** 145
 
 **Exercise:** Raindrops\
 **Link:** https://exercism.org/tracks/go/exercises/raindrops/solutions/rskaindoy \
@@ -121,3 +121,13 @@ The exercise solves the problem of determining whether a word or phrase contains
 I used a `map` to keep track of the letters that had already appeared and a `for` loop to go through each character. I also used `strings.ToLower()` to make the comparison case-insensitive and conditional statements to handle spaces and hyphens. \
 **Where did you struggle and how did you resolve it?**\
 I was a bit confused about how the `map` works, until I reviewed the concept again and visualized how it can keep track of characters that had already appeared and check for duplicates.
+
+**Exercise:** Error Handling\
+**Link:** https://exercism.org/tracks/go/exercises/error-handling/solutions/rskaindoy \
+**Difficulty:** Medium (15 points)\
+**What problem does this exercise solve?**\
+The exercise solves the problem of handling errors and panics while properly managing a resource that needs to be opened and closed.\
+**What concepts or language features did you use?**\
+I used Go's `error` handling, `panic` and `recover` for handling panics, `defer` to ensure that the resource is closed, type assertions to identify specific error types, and named return values to return an error recovered from a panic. I also used retry logic to handle `TransientError`. \
+**Where did you struggle and how did you resolve it?**\
+I struggled with grasping the concepts of error handling in general because the combination of errors, panics, `recover`, and `defer` seemed complicated at first. I resolved this by visualizing the different cases and seeing what should happen when each type of error occurs. I looked up various resources, including the recommended official documentation, to help me understand the concepts in this exercise.
