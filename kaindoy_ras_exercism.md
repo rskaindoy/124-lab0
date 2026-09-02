@@ -82,3 +82,14 @@ The exercise solves the problem of calculating the correct score based on the da
 I used the Pythagorean theorem to calculate the dart's distance from the center of the target.\
 **Where did you struggle and how did you resolve it?**\
 I initially struggled with determining how to use the dart's `x` and `y` coordinates to calculate its distance from the center. I resolved this by using Pythagorean theorem and comparing the resulting distance with the target's scoring regions.
+
+**Exercise:** Allergies\
+**Link:** https://exercism.org/tracks/go/exercises/allergies/solutions/rskaindoy \
+**Difficulty:** Medium (15 points)\
+**What problem does this exercise solve?**\
+The exercise solves the problem of determining a person's list of allergies depending on their allergy score.\
+**What concepts or language features did you use?**\
+I used the concept of bitwise AND `&` to add the bits of each item's allergy score to determine the allergy/ies of a person. I also used an array of string and learned the use of `struct`.\
+**Where did you struggle and how did you resolve it?**\
+I struggled with how to ...
+
