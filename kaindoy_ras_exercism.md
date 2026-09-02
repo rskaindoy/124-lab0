@@ -102,3 +102,13 @@ The exercise solves the problem of finding the difference between the square of 
 I used `for` loops to iterate through the first N natural numbers and basic arithmetic to calculate the square of the sum, the sum of the squares, and their difference.\
 **Where did you struggle and how did you resolve it?**\
 I didn't struggle with this exercise since the calculations and implementation were straightforward.
+
+**Exercise:** Binary Search\
+**Link:** https://exercism.org/tracks/go/exercises/binary-search/solutions/rskaindoy \
+**Difficulty:** Medium (15 points)\
+**What problem does this exercise solve?**\
+The exercise solves the problem of finding the position of a given value in a sorted list of integers using binary search.\
+**What concepts or language features did you use?**\
+I used the concept of binary search and `for` loops to repeatedly narrow down the range of possible positions.\
+**Where did you struggle and how did you resolve it?**\
+I initially struggled with handling cases where the key was not in the list, as well as cases where the key was at the first or last position. I resolved these issues through trial and error and by checking the different possible cases in the binary search while keeping the code simple.
